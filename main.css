@@ -1,0 +1,43 @@
+body{
+    background-color: lightgray;
+}
+header{
+    background-color: black;
+    width: 82%;
+    height: 50px;
+    text-align: center;
+}
+footer{
+    background-color: blue;
+    width: 82%;
+    height: 25px ;
+}
+h1{
+    text-align: center;
+    color: gold;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+h3{
+    color: ivory;
+}
+th,td
+{
+   border: 2px solid
+}   
+td{
+    width: 300px
+}
+td{   
+    height: 300px
+}
+#cel1 {background-color: aqua;}
+#cel3 {background-color: beige;}
+#cel5 {background-color: aquamarine;}
+#cel7 {background-color: bisque;}
+#cel9 {background-color: chocolate;}
+#cel11 {background-color: blue;}
+#cel13 {background-color: floralwhite;}
+#cel15 {background-color: chartreuse;}
