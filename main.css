@@ -1,0 +1,87 @@
+#content {
+    margin-top: 15px;
+}
+[class*="col-"] {
+    float: left;
+    width: 100%;
+}
+@media only screen and (min-width: 768) {
+    [class*="col-1"] {
+    float: left;
+    padding: 15px;
+}
+.header{
+    background-color: red ;
+    }
+}
+.header{
+    background-color: aquamarine;
+}
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: forestgreen;
+    background-image: url(Baexemmap.png);
+    background-repeat: no-repeat;
+}
+img{
+    display: block;
+    float: left;
+    width: 200px; 
+    height: 150px;
+}
+h1, h2, h3, h4{
+    font-family: "Barlow";
+    text-align: center;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.weetjes ul {
+list-style-type: none;
+padding: 10px;
+}
+.weetjes li {
+padding: 5px;
+margin-bottom: 5px;
+background-color: lightgray;
+color: black;
+}
+.weetjes li:hover {
+background-color: beige;
+}
+#links{
+    background-color: cyan;
+    height: auto;
+}
+#rechts1{
+    background-color: burlywood;
+    margin-top: 20px;
+    height: auto;
+    padding: 10px;
+}
+#rechts2{
+    background-color: burlywood;
+    height: auto;
+    padding: 10px;
+}
+p{
+    background-color: antiquewhite;
+    font-family: "Nunito+Sans" ;
+}
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+    color: aliceblue;
+    clear: left;
+}
